@@ -1,0 +1,35 @@
+.EditPanel {
+    text-align: center;
+    width:fit-content;
+    margin: 10px 0;
+    padding: 4px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    background-color: rgb(247, 147, 30);
+}
+
+.AddUnit {
+    width: 75px;
+    padding: 0 4px;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+}
+
+.UnitHp {
+    display: flex;
+    flex-direction: row;
+}
+
+.UnitHp input {
+    margin: 0 10px;
+    width: 30px;
+}
